@@ -1,0 +1,9 @@
+MEU CONTROLE FINANCEIRO — VERSÃO 2
+
+Arquivos: index.html, script.js, style.css e manifest.json.
+
+A versão mantém a chave de armazenamento das movimentações já existentes (meu-controle-financeiro-v1) e cria uma área separada para contas futuras. Antes de substituir arquivos publicados, mantenha o backup já exportado.
+
+Contas futuras permitem descrição, destinatário (“Pagar a / Receber de”), valor, vencimento, edição, exclusão e filtros. Só viram movimentação no histórico quando você confirmar que foram pagas/recebidas. O backup inclui movimentações e contas.
+
+Observação: os dados ficam no armazenamento local de cada navegador/dispositivo; não sincronizam automaticamente entre celular e computador.
