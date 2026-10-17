@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#2563eb"><title>Meu Controle Financeiro</title><link rel="manifest" href="manifest.json"><link rel="stylesheet" href="style.css"></head>
+<body><main class="app">
+<header class="top"><div class="app-icon">R$</div><div><h1>Meu Controle Financeiro</h1><p>Registre suas receitas e despesas</p></div></header>
+<section class="card"><h2>Nova movimentação</h2><form id="form">
+<label for="desc">Descrição</label><input id="desc" maxlength="100" placeholder="Ex.: Salário, supermercado" required>
+<fieldset><legend>Tipo</legend><label><input type="radio" name="type" value="Receita" required> Receita</label><label><input type="radio" name="type" value="Despesa" required> Despesa</label></fieldset>
+<label for="amount">Valor (R$)</label><input id="amount" inputmode="decimal" placeholder="0,00" required>
+<label for="date">Data</label><input id="date" type="date" required>
+<button class="primary" id="save" type="submit">Salvar movimentação</button><button class="secondary hidden" id="cancel" type="button">Cancelar edição</button></form></section>
+<section class="history"><div class="heading"><h2>Histórico</h2><span id="count">0 registros</span></div>
+<div class="filters"><button class="filter active" data-filter="Todas">Todas</button><button class="filter" data-filter="Receita">Receitas</button><button class="filter" data-filter="Despesa">Despesas</button></div>
+<div id="empty" class="empty"><strong>Nenhuma movimentação registrada</strong><p>Adicione sua primeira receita ou despesa no formulário acima.</p></div><ul id="list"></ul></section>
+<section class="card"><h2>Backup dos dados</h2><p>Os registros ficam salvos neste navegador e dispositivo. Faça backup regularmente.</p><div class="backup"><button class="secondary" id="export">Exportar backup</button><label class="secondary import" for="import">Importar backup</label><input id="import" type="file" accept=".json,application/json"></div><p id="message" class="message"></p></section>
+<footer>Sem conexão bancária ou sincronização automática. Guarde seus backups.</footer></main><script src="script.js"></script></body></html>
