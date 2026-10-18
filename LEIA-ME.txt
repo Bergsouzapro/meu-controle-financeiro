@@ -1,2 +1,17 @@
-MEU CONTROLE FINANCEIRO — CATEGORIAS V1
-Inclui categorias nas movimentações, gráfico de despesas por categoria e comparação de receitas e despesas do mês selecionado. Preserva as chaves de armazenamento existentes e o backup JSON. Faça backup antes de substituir versões publicadas.
+MEU CONTROLE FINANCEIRO — VERSÃO CONSOLIDADA PARA TESTE
+
+Conteúdo:
+- Painel financeiro mensal e filtro por mês
+- Receitas e despesas com categorias e gráficos
+- Contas futuras, confirmação de pagamento/recebimento e recorrência mensal
+- Cartões de crédito e compras parceladas
+- Metas de economia e contribuições
+- Backup JSON de movimentações, contas, cartões, compras e metas
+
+ANTES DE PUBLICAR:
+1. Faça e guarde um backup JSON.
+2. Teste esta pasta localmente no navegador.
+3. Confirme que todos os recursos necessários estão funcionando.
+4. Só então substitua os arquivos no GitHub Pages.
+
+Os dados ficam no armazenamento local do navegador/dispositivo. Não há sincronização automática entre dispositivos.
