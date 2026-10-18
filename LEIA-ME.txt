@@ -1,0 +1,2 @@
+MEU CONTROLE FINANCEIRO — CATEGORIAS V1
+Inclui categorias nas movimentações, gráfico de despesas por categoria e comparação de receitas e despesas do mês selecionado. Preserva as chaves de armazenamento existentes e o backup JSON. Faça backup antes de substituir versões publicadas.
