@@ -1,17 +1,9 @@
-MEU CONTROLE FINANCEIRO — VERSÃO CONSOLIDADA PARA TESTE
+MEU CONTROLE FINANCEIRO — FORMULÁRIO UNIFICADO
 
-Conteúdo:
-- Painel financeiro mensal e filtro por mês
-- Receitas e despesas com categorias e gráficos
-- Contas futuras, confirmação de pagamento/recebimento e recorrência mensal
-- Cartões de crédito e compras parceladas
-- Metas de economia e contribuições
-- Backup JSON de movimentações, contas, cartões, compras e metas
+Esta versão reúne o cadastro de movimentações e contas futuras em um único formulário chamado “Nova movimentação”.
 
-ANTES DE PUBLICAR:
-1. Faça e guarde um backup JSON.
-2. Teste esta pasta localmente no navegador.
-3. Confirme que todos os recursos necessários estão funcionando.
-4. Só então substitua os arquivos no GitHub Pages.
+Inclui descrição, tipo (receita/despesa), categoria, valor, data de vencimento, pagar a/receber de, tipo de conta (a pagar/a receber) e repetição mensal. Os filtros Pendentes, Concluídas e Todas permanecem junto à lista de contas.
 
-Os dados ficam no armazenamento local do navegador/dispositivo. Não há sincronização automática entre dispositivos.
+As contas são salvas no armazenamento local deste navegador. Não há sincronização automática entre dispositivos. Preserve os dados locais atuais e faça um backup antes de substituir versões.
+
+Para testar, extraia todos os arquivos para a mesma pasta e abra index.html no navegador.
